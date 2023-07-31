@@ -1,0 +1,34 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .text-xl {
+  letter-spacing: 0.1em;
+}
+
+nav .h-8 {
+  filter: invert(1);
+}
+
+nav button:hover {
+  background-color: #ffffff;
+  color: #1a202c;
+}
+
+@media (max-width: 768px) {
+  nav .hidden {
+    display: none;
+  }
+}
