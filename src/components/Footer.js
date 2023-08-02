@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/logo.png';
 
 export default function Footer(props) {
-	return <nav className="flex items-center justify-between flex-wrap bg-white p-6">
+	return <nav className="flex items-center justify-between flex-wrap bg-white p-6 border-t-2 py-12">
 		<div className="flex items-center flex-shrink-0 text-base mr-6">
 			<img src={Logo} alt="Logo" className="h-8 mr-2" />
 			<span className="font-semibold text-lg tracking-tight">Creation International</span>

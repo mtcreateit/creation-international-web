@@ -35,7 +35,7 @@ function Header() {
 	return (
 		<nav className="flex items-center justify-between flex-wrap bg-white p-6">
 			<div className="flex items-center flex-shrink-0 text-base mr-6">
-				<img src={Logo} alt="Logo" className="h-8 mr-2"/>
+				<img src={Logo} className="h-8 mr-2"/>
 				<span className="font-semibold text-lg tracking-tight">Creation International</span>
 			</div>
 			<div className="block lg:hidden">

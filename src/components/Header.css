@@ -18,10 +18,6 @@ nav .text-xl {
   letter-spacing: 0.1em;
 }
 
-nav .h-8 {
-  filter: invert(1);
-}
-
 nav button:hover {
   background-color: #ffffff;
   color: #1a202c;
