@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/creation-international-web/static/css/main.30b4b1ac.css",
-    "main.js": "/creation-international-web/static/js/main.60689cad.js",
-    "static/js/787.ddaf00d3.chunk.js": "/creation-international-web/static/js/787.ddaf00d3.chunk.js",
-    "static/media/services.png": "/creation-international-web/static/media/services.23a46c6d4c6f549aa5f1.png",
-    "static/media/banner.png": "/creation-international-web/static/media/banner.7f90fb4aff8fa20051f1.png",
-    "static/media/working2.png": "/creation-international-web/static/media/working2.2e2e1414ddc8dacc5bb2.png",
-    "static/media/working3.png": "/creation-international-web/static/media/working3.90b4e84402e164f6d5ad.png",
-    "static/media/working1.png": "/creation-international-web/static/media/working1.405395e6dd65b5cbc44e.png",
-    "static/media/ourteam.png": "/creation-international-web/static/media/ourteam.9b49a7dda49415899a41.png",
-    "static/media/contact.png": "/creation-international-web/static/media/contact.750c5830106ca1595871.png",
-    "index.html": "/creation-international-web/index.html",
-    "main.30b4b1ac.css.map": "/creation-international-web/static/css/main.30b4b1ac.css.map",
-    "main.60689cad.js.map": "/creation-international-web/static/js/main.60689cad.js.map",
-    "787.ddaf00d3.chunk.js.map": "/creation-international-web/static/js/787.ddaf00d3.chunk.js.map"
+    "main.css": "/static/css/main.30b4b1ac.css",
+    "main.js": "/static/js/main.c57d6c9c.js",
+    "static/js/787.a45b54ac.chunk.js": "/static/js/787.a45b54ac.chunk.js",
+    "static/media/services.png": "/static/media/services.23a46c6d4c6f549aa5f1.png",
+    "static/media/banner.png": "/static/media/banner.7f90fb4aff8fa20051f1.png",
+    "static/media/working2.png": "/static/media/working2.2e2e1414ddc8dacc5bb2.png",
+    "static/media/working3.png": "/static/media/working3.90b4e84402e164f6d5ad.png",
+    "static/media/working1.png": "/static/media/working1.405395e6dd65b5cbc44e.png",
+    "static/media/ourteam.png": "/static/media/ourteam.9b49a7dda49415899a41.png",
+    "static/media/contact.png": "/static/media/contact.750c5830106ca1595871.png",
+    "index.html": "/index.html",
+    "main.30b4b1ac.css.map": "/static/css/main.30b4b1ac.css.map",
+    "main.c57d6c9c.js.map": "/static/js/main.c57d6c9c.js.map",
+    "787.a45b54ac.chunk.js.map": "/static/js/787.a45b54ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30b4b1ac.css",
-    "static/js/main.60689cad.js"
+    "static/js/main.c57d6c9c.js"
   ]
 }
