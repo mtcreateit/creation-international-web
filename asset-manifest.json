@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/creation-international-web/static/css/main.30b4b1ac.css",
-    "main.js": "/creation-international-web/static/js/main.3ba5ce82.js",
-    "static/js/787.a45b54ac.chunk.js": "/creation-international-web/static/js/787.a45b54ac.chunk.js",
-    "static/media/services.png": "/creation-international-web/static/media/services.23a46c6d4c6f549aa5f1.png",
-    "static/media/banner.png": "/creation-international-web/static/media/banner.7f90fb4aff8fa20051f1.png",
-    "static/media/working2.png": "/creation-international-web/static/media/working2.2e2e1414ddc8dacc5bb2.png",
-    "static/media/working3.png": "/creation-international-web/static/media/working3.90b4e84402e164f6d5ad.png",
-    "static/media/working1.png": "/creation-international-web/static/media/working1.405395e6dd65b5cbc44e.png",
-    "static/media/ourteam.png": "/creation-international-web/static/media/ourteam.9b49a7dda49415899a41.png",
-    "static/media/contact.png": "/creation-international-web/static/media/contact.750c5830106ca1595871.png",
+    "main.css": "/creation-international-web/static/css/main.6473e137.css",
+    "main.js": "/creation-international-web/static/js/main.d70fb0f6.js",
+    "static/js/787.ddaf00d3.chunk.js": "/creation-international-web/static/js/787.ddaf00d3.chunk.js",
+    "static/media/banner.svg": "/creation-international-web/static/media/banner.bfb0d3553064e1db7cb3ad75bfb3430f.svg",
+    "static/media/working3.png": "/creation-international-web/static/media/working3.9b562e93d3111099b9f8.png",
+    "static/media/working2.png": "/creation-international-web/static/media/working2.9b61e259f12dc4b26028.png",
+    "static/media/working1.png": "/creation-international-web/static/media/working1.cd66d9b66fd73fe9a5b6.png",
+    "static/media/services.svg": "/creation-international-web/static/media/services.2f4a0583486e67cdd522ebb4a04e36ba.svg",
+    "static/media/team6.svg": "/creation-international-web/static/media/team6.3c22be480025430713fa188b75c1769a.svg",
+    "static/media/logo.svg": "/creation-international-web/static/media/logo.07437ea88f26c5d4c9fd640cdc5c416b.svg",
+    "static/media/contact.svg": "/creation-international-web/static/media/contact.631c187c02f320742c78219f69d25fb8.svg",
+    "static/media/team4.svg": "/creation-international-web/static/media/team4.e67773099d4ee38abef631944656cdb1.svg",
+    "static/media/ourteam.svg": "/creation-international-web/static/media/ourteam.6325710df2a811243d22916cfd36eca7.svg",
+    "static/media/team3.svg": "/creation-international-web/static/media/team3.523bf2ce5ef5df5d479ed22c626e823e.svg",
+    "static/media/team1.svg": "/creation-international-web/static/media/team1.ab3d6e315b97ac96dcdbf28f9f4c1eac.svg",
+    "static/media/team2.svg": "/creation-international-web/static/media/team2.e61d7420208fa8d5eea535a199a4c08c.svg",
+    "static/media/team5.svg": "/creation-international-web/static/media/team5.1407c17bb18aa28696be04070ed8e6f1.svg",
     "index.html": "/creation-international-web/index.html",
-    "main.30b4b1ac.css.map": "/creation-international-web/static/css/main.30b4b1ac.css.map",
-    "main.3ba5ce82.js.map": "/creation-international-web/static/js/main.3ba5ce82.js.map",
-    "787.a45b54ac.chunk.js.map": "/creation-international-web/static/js/787.a45b54ac.chunk.js.map"
+    "static/media/icon_scroll_down.svg": "/creation-international-web/static/media/icon_scroll_down.e0bc7e5dbec77e7c24072efe24616820.svg",
+    "main.6473e137.css.map": "/creation-international-web/static/css/main.6473e137.css.map",
+    "main.d70fb0f6.js.map": "/creation-international-web/static/js/main.d70fb0f6.js.map",
+    "787.ddaf00d3.chunk.js.map": "/creation-international-web/static/js/787.ddaf00d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b4b1ac.css",
-    "static/js/main.3ba5ce82.js"
+    "static/css/main.6473e137.css",
+    "static/js/main.d70fb0f6.js"
   ]
 }
