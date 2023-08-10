@@ -1,9 +1,9 @@
-import team1 from '../assets/team1.png';
-import team2 from '../assets/team2.png';
-import team3 from '../assets/team3.png';
-import team4 from '../assets/team4.png';
-import team5 from '../assets/team5.png';
-import team6 from '../assets/team6.png';
+import team1 from '../assets/team1.svg';
+import team2 from '../assets/team2.svg';
+import team3 from '../assets/team3.svg';
+import team4 from '../assets/team4.svg';
+import team5 from '../assets/team5.svg';
+import team6 from '../assets/team6.svg';
 
 export const ourTeamData = [
 	{

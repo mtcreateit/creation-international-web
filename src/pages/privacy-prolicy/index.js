@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import MenuModal from '../../components/MenuModal';
 
 export default function PrivacyPolicy(props) {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const toggleModal = () => {
+		setIsModalOpen(!isModalOpen);
+	};
+
 	return <div>
-		<Header/>
-		<div className="flex flex-col items-center px-12">
+		<Header isModalOpen={isModalOpen} onPress={toggleModal} />
+		<div className="flex flex-col items-center px-[16px] md:px-12">
 			<div className="mt-8">
 				<p className="text-5xl text-center font-semibold">Privacy Policy</p>
 			</div>
@@ -369,10 +376,6 @@ export default function PrivacyPolicy(props) {
 						https://support.twitter.com/articles/20170405You can learn more about the privacy
 						practices and policies of Twitter by visiting their Privacy Policy page:
 						https://twitter.com/privacy</p>
-					<p>FacebookFacebook remarketing service is provided by Facebook Inc.You can learn more
-						about interest-based advertising from Facebook by visiting this page:
-						https://www.facebook.com/help/164968693837950To opt-out from Facebook’s interest-based
-						ads follow these instructions from Facebook</p>
 				</div>
 				<div className="mt-24">
 					<p className="text-2xl font-semibold">LINKS TO OTHER SITES</p>
@@ -409,5 +412,8 @@ export default function PrivacyPolicy(props) {
 			</div>
 		</div>
 		<Footer/>
+		{isModalOpen && (
+			<MenuModal isModalOpen={isModalOpen} onPress={toggleModal} />
+		)}
 	</div>;
 }

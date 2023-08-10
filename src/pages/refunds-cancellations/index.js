@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import MenuModal from '../../components/MenuModal';
 
 export default function RefundsCancellations(props) {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const toggleModal = () => {
+		setIsModalOpen(!isModalOpen);
+	};
+
 	return <div>
-		<Header/>
-		<div className="flex flex-col items-center px-12">
+		<Header isModalOpen={isModalOpen} onPress={toggleModal} />
+		<div className="flex flex-col items-center px-[16px] md:px-12">
 			<div className="mt-8">
 				<p className="text-5xl text-center font-semibold">Return and refund policy</p>
 			</div>
@@ -137,5 +144,8 @@ export default function RefundsCancellations(props) {
 			</div>
 		</div>
 		<Footer/>
+		{isModalOpen && (
+			<MenuModal isModalOpen={isModalOpen} onPress={toggleModal} />
+		)}
 	</div>;
 }

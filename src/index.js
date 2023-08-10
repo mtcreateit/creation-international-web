@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {
-  createBrowserRouter,
   RouterProvider,
+  createHashRouter,
 } from "react-router-dom";
 import Home from './pages/home';
 import PrivacyPolicy from './pages/privacy-prolicy';
 import RefundsCancellations from './pages/refunds-cancellations';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
